@@ -31,8 +31,9 @@
     width: 100%;
     padding: 10px 0px;
     backdrop-filter: blur(10px);
-    box-shadow: 0 20px 30px rgb(0,0,0,0.15);
+    box-shadow: 0 20px 30px rgb(0,0,0,0);
 }
+
 .heading{
 
     font-family: 'Abril Fatface', cursive;
@@ -103,7 +104,7 @@
 .type-text{
     cursor: none;
 }
-.bttn{
+.bttn {
     padding: 25px 0px;
 }
 .bttn button{
@@ -125,7 +126,7 @@
 }
 .avatar img{
     position: relative;
-    width: 170px;
+    width: 250px;
     margin-inline: auto;
     
 }
@@ -221,9 +222,46 @@
   
    
 }
+#education > p{
+    font-family: 'Abril Fatface', cursive;
 
+}
+.bachelors{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px 90px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 10px #888888;
 
+}
+.higher{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0px 90px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 10px #888888;
 
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0px !important;
+    background-color: rgb(0,0,0,0.5);
+    font-family: 'Abril Fatface', cursive;
+
+}
+.details{
+    padding : 20px 0px;
+}
+.details p{
+    font-size: 20px;
+}
 @media screen and (min-width:925px) and (max-width:1160px){
     .intro{
         padding-top: 110px;
@@ -339,6 +377,17 @@
     .right{
         width: 100%;
     }
+    #footer{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .made{
+        padding: 20px 0px;
+    }
+    .details{
+        padding: 20px 0px;
+    }
 }
 
 @media screen and (min-width: 450px) and (max-width:640px) {
@@ -396,6 +445,17 @@
     }
     .name p{
         margin: 0px 0px 4px 0px;
+    }
+    #footer{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .made{
+        padding: 20px 0px;
+    }
+    .details{
+        padding: 20px 0px;
     }
 }
 
@@ -482,6 +542,26 @@
     .b{
         padding-left: 45px !important;
        
+    }
+    .bachelors{
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    .higher{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    .made{
+        padding: 20px 0px;
+    }
+    .details{
+        padding: 20px 0px;
     }
 }
 @media  screen and (max-width: 400px) {
