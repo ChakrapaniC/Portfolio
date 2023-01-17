@@ -383,7 +383,7 @@
     .social i{
         font-size: 45px;
     }
-    .bttn button{
+    .bttn a{
         padding: 10px 20px;
         font-size: 25px;
     }
@@ -447,9 +447,9 @@
     .social i{
         font-size: 40x;
     }
-    .bttn button{
-        padding: 8px 15px;
-        font-size: 20px;
+    .bttn a{
+        padding: 10px 8px;
+        font-size: 18px;
     }
     .picture{
         display: flex;
@@ -523,8 +523,8 @@
     .social i{
         font-size: 20px;
     }
-    .bttn button{
-        padding: 7px 12px;
+    .bttn a{
+        padding: 10px 8px;
         font-size: 15px;
     }
     .picture{
@@ -596,6 +596,7 @@
     }
     .details{
         padding: 20px 0px;
+        text-align: center;
     }
 }
 @media  screen and (max-width: 400px) {
